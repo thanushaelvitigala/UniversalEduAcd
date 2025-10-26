@@ -1,5 +1,6 @@
 import SpaceModel from "../components/spaceModel";
 import Footer from "../components/footer";
+import Video from "../components/Video";
 
 const Home = () => {
   return (
@@ -77,10 +78,11 @@ const Home = () => {
           </p>
         </div>
       </div>
-
+      <Video />
+      {/* 
       <button className="mt-10 px-6 py-3 text-white text-base bg-[#4800ff] rounded-lg shadow hover:bg-[#3700cc] transition">
         Learn More
-      </button>
+      </button> */}
 
       <Footer />
     </div>
