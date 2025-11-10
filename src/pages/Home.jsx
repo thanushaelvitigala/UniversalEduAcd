@@ -50,23 +50,26 @@ const Home = () => {
             Discover premium beauty products designed to enhance your natural
             glow.
           </p>
+          <button className="text-fuchsia-800">EXPLORE MORE ?</button>
         </div>
-
-        <a
-          href="https://vmdconsultantskadawatha.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="w-[250px] bg-white p-5 rounded-xl shadow-md text-left hover:shadow-lg transition cursor-pointer">
-            <h2 className="font-semibold text-center text-lg">
-              VMD Consultants
-            </h2>
-            <p className="text-gray-700">
-              Turn your dream of studying abroad into reality with our expert
-              guidance.
-            </p>
-          </div>
-        </a>
+        <div>
+          <a
+            href="https://vmdconsultantskadawatha.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="w-[250px] bg-white p-5 rounded-xl shadow-md text-left hover:shadow-lg transition cursor-pointer">
+              <h2 className="font-semibold text-center text-lg">
+                VMD Consultants
+              </h2>
+              <p className="text-gray-700">
+                Turn your dream of studying abroad into reality with our expert
+                guidance.
+              </p>
+              <button className="text-fuchsia-800">EXPLORE MORE ?</button>
+            </div>
+          </a>
+        </div>
         <div>
           <a
             href="https://universaleducationalacademy.netlify.app/"
@@ -81,6 +84,7 @@ const Home = () => {
                 Achieve your desired band score with our expert-led training
                 programs.
               </p>
+              <button className="text-fuchsia-800">EXPLORE MORE ?</button>
             </div>
           </a>
         </div>
