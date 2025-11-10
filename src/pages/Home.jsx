@@ -67,15 +67,22 @@ const Home = () => {
             </p>
           </div>
         </a>
-
-        <div className="w-[250px] bg-white p-5 rounded-xl shadow-md text-left">
-          <h2 className="font-semibold text-center text-lg">
-            Universal English Academy
-          </h2>
-          <p className="text-gray-700">
-            Achieve your desired band score with our expert-led training
-            programs.
-          </p>
+        <div>
+          <a
+            href="https://universaleducationalacademy.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="w-[250px] bg-white p-5 rounded-xl shadow-md text-left">
+              <h2 className="font-semibold text-center text-lg">
+                Universal English Academy
+              </h2>
+              <p className="text-gray-700">
+                Achieve your desired band score with our expert-led training
+                programs.
+              </p>
+            </div>
+          </a>
         </div>
       </div>
       <Video />
